@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) - GA4, added 29 Sep 2026 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W0SGKP1VV2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-W0SGKP1VV2');
+  gtag('config', 'AW-11425762920'); // Google Ads account tag, same as offer.timar.com.au
+  gtag('event', 'generate_lead', {form: 'investors_landing'}); // fires once per visit to this page
+  // phone number taps, for the "phone_click" key event
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if (a) gtag('event', 'phone_click', {link_url: a.getAttribute('href')});
+  });
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <title>Thanks | Timar Buyers Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Jost',sans-serif;font-weight:300;background:#F5F5F5;color:#304C61;line-height:1.7;min-height:100vh;display:flex;flex-direction:column}
+    a{text-decoration:none;color:inherit}
+    .top{background:#1A1A1A;height:68px;display:flex;align-items:center;padding:0 16px}
+    .top-inner{max-width:1160px;width:100%;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+    .top img{height:30px;filter:brightness(0) invert(1)}
+    .top a.ph{color:#fff;font-weight:500;font-size:13px;letter-spacing:1.5px;border:1px solid rgba(255,255,255,.3);padding:9px 18px;border-radius:3px}
+    main{flex:1;display:flex;align-items:center;justify-content:center;padding:56px 16px}
+    .card{background:#fff;border:1px solid rgba(48,76,97,.12);border-radius:3px;max-width:560px;width:100%;padding:44px 36px;text-align:center}
+    h1{font-size:clamp(30px,6vw,42px);font-weight:700;line-height:1.1;margin-bottom:14px}
+    p{font-size:16px;color:#3d5567;margin-bottom:14px}
+    .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+    .btn{display:inline-block;font-weight:500;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:14px 24px;border-radius:3px;border:1px solid #304C61}
+    .btn--fill{background:#304C61;color:#fff}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="top-inner"><a href="https://timar.com.au"><img src="/Primary-Dark-Blue.webp" alt="Timar Buyers Agency"></a><a class="ph" href="tel:0408369082">0408 369 082</a></div></header>
+  <main>
+    <div class="card">
+      <h1>Thanks, we've got your details</h1>
+      <p>David will call you within one business day to talk through what you're looking for.</p>
+      <p>Can't wait? Book a free 15-minute call at a time that suits you, or ring David directly.</p>
+      <div class="btns">
+        <a class="btn btn--fill" href="https://link.wayhub.io/widget/bookings/15-minute-dc-282c8865-b907-4fca-a643-7f1c21ee8d9f" target="_blank">Book a 15-min call</a>
+        <a class="btn" href="tel:0408369082">Call 0408 369 082</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
