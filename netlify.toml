@@ -1,0 +1,340 @@
+# Netlify configuration for Timar Buyers Agency
+# timar.com.au
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# ── Clean URLs ─────────────────────────────────────────────────────────────
+# Lets people visit /about instead of /about.html — every internal link on
+# the site now points to these clean paths, so every page needs a rule here.
+
+[[redirects]]
+  from = "/about"
+  to   = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to   = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-capital-gains-tax-records-checklist"
+  to   = "/blog-capital-gains-tax-records-checklist.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-hobart-market-update-november-2026"
+  to   = "/blog-hobart-market-update-november-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-hobart-market-update-october-2026"
+  to   = "/blog-hobart-market-update-october-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-2026-budget-property-investors"
+  to   = "/blog-2026-budget-property-investors.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-buyers-agent-vs-real-estate-agent"
+  to   = "/blog-buyers-agent-vs-real-estate-agent.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-claremont-tas-suburb-profile"
+  to   = "/blog-claremont-tas-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-glenorchy-suburb-profile"
+  to   = "/blog-glenorchy-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-how-much-does-a-buyers-agent-cost"
+  to   = "/blog-how-much-does-a-buyers-agent-cost.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-is-hobart-a-good-place-to-invest"
+  to   = "/blog-is-hobart-a-good-place-to-invest.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-kingston-tas-suburb-profile"
+  to   = "/blog-kingston-tas-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-launceston-suburb-profile"
+  to   = "/blog-launceston-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-moonah-suburb-profile"
+  to   = "/blog-moonah-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-mowbray-suburb-profile"
+  to   = "/blog-mowbray-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-negative-gearing-2026-what-actually-changed"
+  to   = "/blog-negative-gearing-2026-what-actually-changed.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-newnham-suburb-profile"
+  to   = "/blog-newnham-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-newstead-suburb-profile"
+  to   = "/blog-newstead-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-riverside-launceston-suburb-profile"
+  to   = "/blog-riverside-launceston-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-sandy-bay-suburb-profile"
+  to   = "/blog-sandy-bay-suburb-profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-top-10-suburbs-tasmania-2026"
+  to   = "/blog-top-10-suburbs-tasmania-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-house-or-unit-investor"
+  to   = "/blog-house-or-unit-investor.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-property-strategy-after-the-budget"
+  to   = "/blog-property-strategy-after-the-budget.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-perth-investor-hobart-diversification"
+  to   = "/blog-perth-investor-hobart-diversification.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-why-i-dont-chase-the-market"
+  to   = "/blog-why-i-dont-chase-the-market.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-buy-without-regrets-tasmania"
+  to   = "/blog-buy-without-regrets-tasmania.html"
+  status = 200
+
+[[redirects]]
+  from = "/buy-a-home"
+  to   = "/buy-a-home.html"
+  status = 200
+
+[[redirects]]
+  from = "/cashflow-calculator"
+  to   = "/cashflow-calculator.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to   = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/depreciation-calculator"
+  to   = "/depreciation-calculator.html"
+  status = 200
+
+[[redirects]]
+  from = "/due-diligence-report-sample"
+  to   = "/due-diligence-report-sample.html"
+  status = 200
+
+# Express Reports retired 14 Oct 2026: visitors go to the Invest page (file kept, unlinked)
+[[redirects]]
+  from = "/express-reports"
+  to   = "/invest"
+  status = 301
+
+[[redirects]]
+  from = "/express-reports.html"
+  to   = "/invest"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fact-finder"
+  to   = "/fact-finder.html"
+  status = 200
+
+[[redirects]]
+  from = "/feasibility-calculator"
+  to   = "/feasibility-calculator.html"
+  status = 200
+
+[[redirects]]
+  from = "/invest"
+  to   = "/invest.html"
+  status = 200
+
+[[redirects]]
+  from = "/investment-property-report-sample"
+  to   = "/investment-property-report-sample.html"
+  status = 200
+
+[[redirects]]
+  from = "/manage"
+  to   = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/manage.html"
+  to   = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/onboarding-form"
+  to   = "/onboarding-form.html"
+  status = 200
+
+# Google Ads landing page (12 Oct 2026) + its thank-you page (fires the generate_lead event)
+[[redirects]]
+  from = "/buyers-agent-hobart"
+  to   = "/buyers-agent-hobart.html"
+  status = 200
+
+[[redirects]]
+  from = "/thank-you-hobart"
+  to   = "/thank-you-hobart.html"
+  status = 200
+
+[[redirects]]
+  from = "/call-booked"
+  to   = "/call-booked.html"
+  status = 200
+
+[[redirects]]
+  from = "/call-booked-hobart"
+  to   = "/call-booked-hobart.html"
+  status = 200
+
+# Client portal (clean URLs, 19 Oct 2026). /portal is a short link to the login.
+[[redirects]]
+  from = "/portal"
+  to   = "/portal-login"
+  status = 301
+
+[[redirects]]
+  from = "/portal-login"
+  to   = "/portal-login.html"
+  status = 200
+
+[[redirects]]
+  from = "/portal-dashboard"
+  to   = "/portal-dashboard.html"
+  status = 200
+
+[[redirects]]
+  from = "/portal-admin"
+  to   = "/portal-admin.html"
+  status = 200
+
+[[redirects]]
+  from = "/coach"
+  to   = "/coach.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy"
+  to   = "/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to   = "/terms.html"
+  status = 200
+
+# ── Old page addresses (were used as canonical tags; send to the real pages) ──
+[[redirects]]
+  from   = "/best-suburbs-invest-tasmania-2026"
+  to     = "/blog-top-10-suburbs-tasmania-2026"
+  status = 301
+
+[[redirects]]
+  from   = "/homes-for-sale-tasmania"
+  to     = "/buy-a-home"
+  status = 301
+
+[[redirects]]
+  from   = "/build-investment-property-tasmania"
+  to     = "/invest"
+  status = 301
+
+[[redirects]]
+  from   = "/property-management-hobart-tasmania"
+  to     = "/contact"
+  status = 301
+
+# ── 404 fallback ───────────────────────────────────────────────────────────
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 404
+
+# ── Security headers ───────────────────────────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+    Permissions-Policy     = "camera=(), microphone=(), geolocation=()"
+
+# ── Keep private pages out of Google ───────────────────────────────────────
+[[headers]]
+  for = "/coach"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/coach.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# ── Cache static assets ────────────────────────────────────────────────────
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+

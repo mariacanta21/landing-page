@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NGZ33W5Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<!-- End Google Tag Manager -->
+<!-- Tracking events for Google Tag Manager (GA4 + Google Ads tags live inside GTM-NGZ33W5Q) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  dataLayer.push({event: 'call_booked', source: 'investor_landing'}); // fires once per visit to this page
+  // phone number taps -> 'phone_click' event in GTM
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if (a) dataLayer.push({event: 'phone_click', link_url: a.getAttribute('href')});
+  });
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <title>Call Booked | Timar Buyers Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Jost',sans-serif;font-weight:300;background:#F5F5F5;color:#304C61;line-height:1.7;min-height:100vh;display:flex;flex-direction:column}
+    a{text-decoration:none;color:inherit}
+    .top{background:#1A1A1A;min-height:68px;display:flex;align-items:center;padding:0 16px}
+    .top-inner{max-width:1160px;width:100%;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:16px}
+    .top img{height:30px;filter:brightness(0) invert(1);display:block}
+    .top nav{display:flex;gap:22px;align-items:center}
+    .top nav a{color:rgba(255,255,255,.6);font-weight:500;font-size:11px;letter-spacing:2px;text-transform:uppercase}
+    .top nav a:hover{color:#fff}
+    .top a.ph{color:#fff;font-weight:500;font-size:13px;letter-spacing:1.5px;border:1px solid rgba(255,255,255,.3);padding:9px 18px;border-radius:3px;white-space:nowrap}
+    main{flex:1;padding:48px 16px 56px}
+    .wrap{max-width:640px;margin:0 auto}
+    .card{background:#fff;border:1px solid rgba(48,76,97,.12);border-radius:3px;padding:36px 32px;margin-bottom:16px}
+    .hero{text-align:center}
+    .tick{width:52px;height:52px;border-radius:50%;background:#304C61;display:flex;align-items:center;justify-content:center;margin:0 auto 18px}
+    .tick svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .kicker{font-size:11px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:#72818B;margin-bottom:8px}
+    h1{font-size:clamp(30px,6vw,42px);font-weight:700;line-height:1.1;margin-bottom:14px}
+    h2{font-size:18px;font-weight:600;margin-bottom:12px}
+    p{font-size:16px;color:#3d5567;margin-bottom:12px}
+    p:last-child{margin-bottom:0}
+    ol,ul{padding-left:20px;color:#3d5567}
+    li{margin-bottom:8px;font-size:15.5px}
+    li b{font-weight:600;color:#304C61}
+    .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+    .btn{display:inline-block;font-weight:500;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:14px 22px;border-radius:3px;border:1px solid #304C61;text-align:center}
+    .btn--fill{background:#304C61;color:#fff}
+    .btn:focus-visible{outline:2px solid #304C61;outline-offset:2px}
+    .small{font-size:14px;color:#72818B;text-align:center}
+    .small a{color:#304C61;font-weight:500;text-decoration:underline}
+    footer{text-align:center;font-size:12px;color:#72818B;padding:0 16px 28px}
+    footer a{text-decoration:underline}
+    @media(max-width:700px){.top nav{display:none}.card{padding:28px 20px}}
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGZ33W5Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <header class="top"><div class="top-inner"><a href="/buyers-agent-hobart"><img src="/Primary-Dark-Blue.webp" alt="Timar Buyers Agency"></a><a class="ph" href="tel:0408369082">0408 369 082</a></div></header>
+  <main><div class="wrap">
+    <div class="card hero">
+      <div class="tick" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+      <div class="kicker">Call booked</div>
+      <h1>You're booked in with David</h1>
+      <p>Thanks for booking a free 15-minute call. A confirmation email is on its way with your time and the details. Please check your junk folder if it hasn't arrived in a few minutes.</p>
+    </div>
+    <div class="card">
+      <h2>On the call</h2>
+      <p>David will talk through your investment goals, what you can spend and which parts of Hobart could suit you, and tell you honestly whether working with a buyers agent makes sense. No pressure and no obligation.</p>
+      <h2 style="margin-top:20px">To get the most from 15 minutes, have a think about</h2>
+      <ul>
+        <li><b>Your goal:</b> long-term growth, rental income, or both</li>
+        <li><b>Your budget:</b> a rough price range, and whether you'd use equity from your home</li>
+        <li><b>Finance:</b> whether you've spoken to a broker or have pre-approval</li>
+        <li><b>Timing:</b> when you'd like to buy</li>
+        <li><b>Where:</b> any Hobart suburbs you have in mind, or if you're open to ideas</li>
+      </ul>
+      <p style="margin-top:12px">Rough answers are fine. That's what the call is for.</p>
+    </div>
+    <div class="card">
+      <h2>While you wait</h2>
+      <p>See how we work, and a real example of an investment property we bought and added value to.</p>
+      <div class="btns">
+        <a class="btn btn--fill" href="https://www.loom.com/share/5e8340a078554bbfbe7468c06006748c" target="_blank" rel="noopener">Watch a case study</a>
+        <a class="btn" href="https://youtu.be/8YWUIVNyNLE?si=ZPvhoa_jfx09k6fC" target="_blank" rel="noopener">Watch our podcast</a>
+      </div>
+    </div>
+    <p class="small">Need to change your time? Use the link in your confirmation email, or call David on <a href="tel:0408369082">0408 369 082</a>.</p>
+  </div></main>
+  <footer>Timar Buyers Agency, 54A Main Road, Moonah TAS 7009 &middot; <a href="/privacy-policy">Privacy Policy</a> &middot; <a href="/terms">Terms</a></footer>
+</body>
+</html>
